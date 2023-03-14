@@ -13,14 +13,17 @@ export const ContactsWrapper = styled.div`
   }
   li {
     margin-bottom: 8px;
+    display: flex;
+    align-items: center;
   }
   span {
     margin-right: 8px;
   }
   button {
+    padding: 6px 12px;
+    margin-left: auto;
     border-radius: 15px;
     border: none;
-    padding: 6px 12px;
     background-color: #8cada6;
     cursor: pointer;
     transition: 500ms;
